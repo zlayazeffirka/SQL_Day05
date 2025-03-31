@@ -1,0 +1,2 @@
+data=# \COPY data.test00_01_1 FROM 'C:/Users/tmeno/pgbench_log_table.2736' WITH (FORMAT CSV, DELIMITER ' ');
+data=# \COPY data.test00_01_2 FROM 'C:/Users/tmeno/pgbench_log_views.21404' WITH (FORMAT CSV, DELIMITER ' ');
