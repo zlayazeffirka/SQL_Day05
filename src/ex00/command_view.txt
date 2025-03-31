@@ -1,0 +1,4 @@
+pgbench -h localhost -p 5432 -U postgres -f D:\шк21\SQL_Day05-1\src\ex00\bench_view.sql -c 10 -r -T 180 data
+pgbench -h localhost -p 5432 -U postgres -f D:\шк21\SQL_Day05-1\src\ex00\bench_view.sql -c 20 -r -T 180 data
+pgbench -h localhost -p 5432 -U postgres -f D:\шк21\SQL_Day05-1\src\ex00\bench_view.sql -c 40 -r -T 180 data
+pgbench -h localhost -p 5432 -U postgres -f D:\шк21\SQL_Day05-1\src\ex00\bench_view.sql -c 80 -r -T 180 data
